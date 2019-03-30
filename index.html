@@ -14,7 +14,32 @@
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 </head>
 <body>
-  <div></div>
+  <div class="container">
+    <div class="jumbotron">
+      <h1>New York Times Search</h1>
+    </div>
+    <div class="card">
+      <div class="card-title">Search Parameters</div>
+      <div class="card-body">
+        <label for="">
+          <input type="text" id="searchField" placeholder="Search Term">
+        </label>
+        <label for="">
+          <input type="text" id="numOfRecords" placeholder="Number of Records to Retrieve">
+        </label>
+        <label for="">
+          <input type="text" id="startYear" placeholder="Start Year (Optional)">
+        </label>
+        <label for="">
+          <input type="text" id="endYear" placeholder="End Year (Optional)">
+        </label>
+        <button id="btnSearch">Search</button>
+        <button id="btnClear">Clear Search</button>
+        
+      </div>
+    </div>
+    
+  </div>
   <!-- change src accordingly -->
   <!-- http or https -->
   <script src="assets/js/app.js"></script>

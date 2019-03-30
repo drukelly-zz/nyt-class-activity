@@ -21,21 +21,32 @@
     <div class="card">
       <div class="card-title">Search Parameters</div>
       <div class="card-body">
-        <label for="">
-          <input type="text" id="searchField" placeholder="Search Term">
-        </label>
-        <label for="">
-          <input type="text" id="numOfRecords" placeholder="Number of Records to Retrieve">
-        </label>
-        <label for="">
-          <input type="text" id="startYear" placeholder="Start Year (Optional)">
-        </label>
-        <label for="">
-          <input type="text" id="endYear" placeholder="End Year (Optional)">
-        </label>
-        <button id="btnSearch">Search</button>
-        <button id="btnClear">Clear Search</button>
-        
+        <div class="row">
+          <label class="col">
+            <input type="text" id="searchField" placeholder="Search Term" class="w-100">
+          </label>
+        </div>
+        <div class="row">
+          <label class="col">
+            <input type="text" id="numOfRecords" placeholder="Number of Records to Retrieve" class="w-100">
+          </label>
+        </div>
+        <div class="row">
+          <label class="col">
+            <input type="text" id="startYear" placeholder="Start Year (Optional)" class="w-100">
+          </label>
+        </div>
+        <div class="row">
+          <label class="col">
+            <input type="text" id="endYear" placeholder="End Year (Optional)" class="w-100">
+          </label>
+        </div>
+        <div class="row">
+          <div class="col">
+            <button id="btnSearch" class="btn btn-primary">Search</button>
+            <button id="btnClear" class="btn btn-danger">Clear Search</button>
+          </div>
+        </div>
       </div>
     </div>
     
